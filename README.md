@@ -1,17 +1,17 @@
-# 🔧 LLM-based Automation Agent
+# LLM-based Automation Agent
 
 > **Automate plain-English tasks using a GPT-4o-Mini powered agent**  
 > Built for DataWorks Solutions (TDS 2025 Project 1)
 
 ---
 
-## 📜 Project Overview
+##  Project Overview
 
 This project is an intelligent automation agent designed to handle operational and business tasks described in natural language. It uses a Large Language Model (LLM) — via AI Proxy's GPT-4o-Mini — to interpret task instructions and perform multi-step actions within a controlled environment.
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 This agent exposes two REST API endpoints:
 
@@ -23,9 +23,9 @@ This agent exposes two REST API endpoints:
 
 ---
 
-## ✅ Supported Tasks
+##  Supported Tasks
 
-### 📁 Phase A – Operational Tasks
+###  Phase A – Operational Tasks
 - Run external Python data scripts
 - Format files using `prettier`
 - Date counting (e.g., count Wednesdays in a file)
@@ -36,7 +36,7 @@ This agent exposes two REST API endpoints:
 - Use embeddings to find comment similarity
 - Run SQL queries on SQLite files
 
-### 🧩 Phase B – Business + Security Tasks
+###  Phase B – Business + Security Tasks
 - Enforce sandboxed `/data`-only access (no deletion, no exfiltration)
 - API fetching and saving
 - Git repo cloning and commits
@@ -49,9 +49,8 @@ This agent exposes two REST API endpoints:
 
 ---
 
-## 🚀 Getting Started
 
-### 🧪 Run via Docker
+###  Run via Docker
 
 > Make sure you have [Podman](https://podman.io/) or Docker installed.
 
